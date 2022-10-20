@@ -6,4 +6,4 @@ for path in pathlib.Path("d:\\GITHUB\\test\\honey").iterdir():
 		contents.insert(3, "\nharshjot edit\n          farrukh edit111")
 		with open(path, "w") as f:
 			contents = "".join(contents)
-			f.write(contents)
+			f.write(contents1)
